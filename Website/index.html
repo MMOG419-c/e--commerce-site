@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Sneaker Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">    
+    <div class= "container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/sneaker logo.jpg" width="200px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.jpg" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+           <div class="col-2">
+              <h1>Give your Feet<br> A New Look! </h1>
+              <p>Success isn't always about greatness. It's about cosistency.</p>
+              <a href="" class="btn">Explore Now &#8594;</a>
+            </div >
+            <div class="col-2">
+              <img src="images/Background.jpg">
+            </div>     
+        </div>
+    </div>    
+</div>
+
+<!-----  Featured Categories   ------->
+   <div class="categories">
+       <div class="small-container">
+           <h1>Featured Categories</h1>
+           <div class="row">
+               <div class="col-3">
+                   <img src="images/yeezy 700 Wave Runner.jpg">
+               </div>
+               <div class="col-3">
+                   <img src="images/yeezy 700 V2 Tephra.jpg">
+               </div>
+               <div class="col-3">
+                   <img src="images/yeezy 700 V3 Azael.jpg">
+               </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-----  Featured Products   ------->   
+    <div class="small-container">
+        <h2 class="title">Featured Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/yeezy 700 Inertia.jpg">
+                <h4>yeezy 700 Inertia</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh 3500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/yeezy 700 analog.jpg">
+                <h4>yeezy 700(analog)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh 3500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Air Force 1 x Peace minus One.jpg">
+                <h4>yeezy Peace minus one</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh 3000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/yeezy 700 Utility Black.jpg">
+                <h4>yeezy 700 Utilty Black</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>ksh 3800</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/Jordan 4 Travis scott.jpg">
+                <h4>Jordan 4 Travis scott</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh 4000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/psg.jpg">
+                <h4>Jordan 4 PSG</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>ksh 4300</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Jordan 4 Off-White Sail.jpg">
+                <h4>Jordan 4 Off-White Sail</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>ksh 4500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Jordan 4 Metallic Red.jpg">
+                <h4>Jordan 4 Metallic Red</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>ksh 5000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/Jordan 4 Travis scott.jpg">
+                <h4>Jordan 4 Travis scott</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>ksh 4000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/psg.jpg">
+                <h4>Jordan 4 PSG</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>ksh 4300</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Jordan 4 Off-White Sail.jpg">
+                <h4>Jordan 4 Off-White Sail</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>ksh 4500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Jordan 4 Metallic Red.jpg">
+                <h4>Jordan 4 Metallic Red</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>ksh 5000</p>
+            </div>
+        </div>
+    </div> 
+<!-----  Offer ------->     
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/J1 snakskin.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Sneaker Store</p>
+                    <h1>Jordan 1 Snakeskin</h1>
+                    <small>
+                        The Air Jordan 1 High OG “Satin Snake” is a brand new women's-exclusive offering of the Air Jordan 1 Satin that will be releasing this summer. Dressed in a Gym Red, White, and Black color scheme
+                    </small>
+                    <a href="" class="btn">Buy now &#8594</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------- testimonial ----------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p></p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src=" images/">
+                    <h3>Mbarak Mwakileo</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p></p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src=" images/">
+                    <h3>Augustine Okello</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p></p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src=" images/">
+                    <h3>John Ngugi</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p></p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src=" images/">
+                    <h3>Edwin Wanjala</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p></p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src=" images/">
+                    <h3>Francis Kataka</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p></p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src=" images/">
+                    <h3>Amos Murimi</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------brands----------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/nike.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/adidas logo.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/bb logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/fendi lgo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/puma.png">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+<!-------footer-------->
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/google play.png">
+                        <img src="images/apple store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/sneaker logo.jpg">
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Face Book</li>
+                        <li>Twitter</li>
+                        <li>Whatsapp</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2021 - Sneaker Store</p>
+        </div>
+    </div>
+<!----------js for toggle menu-------->
+      <script>
+          var MenuItems = document.getElementById("MenItems")
+
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+              if(MenuItems.style.maxHeight == "0px")
+                   {
+                       MenuItems.style.maxHeight = "200px";
+                   }
+              else
+                   {
+                       MenuItems.style.maxHeight = "0px";
+                   }     
+            }
+      </script>    
+
+</body>
+</html>

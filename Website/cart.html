@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>All Products - Sneaker Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+    <div class= "container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/sneaker logo.jpg" width="200px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.jpg" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+<!--------- cart items details ---------->
+
+<div class="small-container cart-page">
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/inertia 2.jpg">
+                    <div>
+                        <p>yeezy Inertia</p>
+                        <small>Price: ksh 3500</small>
+                        <br>
+                        <a href="Remove"></a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>ksh 3500</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/Jordan 4 Travis scott.jpg">
+                    <div>
+                        <p>Jordan 4 Travis scott</p>
+                        <small>Price: ksh 4000</small>
+                        <br>
+                        <a href="Remove"></a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>ksh 3500</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/Jordan 1 PSG.jpg">
+                    <div>
+                        <p>Jordan 1 PSG</p>
+                        <small>Price: ksh 4500</small>
+                        <br>
+                        <a href="Remove"></a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>ksh 3500</td>
+        </tr>
+    </table>
+ 
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>ksh 10500</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>ksh 200</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>ksh 10700</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+</div>
+
+
+<!-------footer-------->
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/google play.png">
+                        <img src="images/apple store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/sneaker logo.jpg">
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Face Book</li>
+                        <li>Twitter</li>
+                        <li>Whatsapp</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2021 - Sneaker Store</p>
+        </div>
+    </div>
+<!----------js for toggle menu-------->
+      <script>
+          var MenuItems = document.getElementById("MenItems");
+
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+              if(MenuItems.style.maxHeight == "0px")
+                   {
+                       MenuItems.style.maxHeight = "200px";
+                   }
+              else
+                   {
+                       MenuItems.style.maxHeight = "0px";
+                   }     
+            }
+      </script>    
+    
+
+
+</body>
+</html>
