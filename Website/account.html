@@ -62,6 +62,7 @@
                         <input type="password" placeholder="passsword">
                         <button type="submit" class="btn">Register</button>
                     </form>
+                </div>   
             </div>
         </div>
     </div>
@@ -125,7 +126,7 @@
             }
       </script>    
     
-<!----------js for toggle menu-------->
+<!----------js for toggle Form-------->
 
         <script>
          var LoginForm = document.getElementById("LoginForm");
@@ -135,13 +136,15 @@
              function register() {
 
                 RegForm.style.transform = "translateX(0px)";
-                LoginForm.style.transform = "translateX(0px)";
+                LoginForm.style.transform = "translateXs(0px)";
+                Indicator.style.transform = "translateXs(100px)";
                  
              }
              function login() {
 
-                RegForm.style.transform = "translateX(0px)";
-                LoginForm.style.transform = "translateX(0px)";
+                RegForm.style.transform = "translateX(300px)";
+                LoginForm.style.transform = "translateX(300px)";
+                Indicator.style.transform = "translateXs(0px)";
                  
              }
              
